@@ -6,7 +6,7 @@ Runway is an AI-powered career action planner designed for students. Instead of 
 
 ## 🌐 Live Demo
 
-👉 **https://runway-blond-chi.vercel.app/**
+👉 **https://runway-lily.vercel.app/**
 
 ## 💻 GitHub Repository
 

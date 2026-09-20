@@ -1,36 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Runway — 14-Day AI Career Action Planner
 
-## Getting Started
+> **Turn your career goal into 14 days of action.**
 
-First, run the development server:
+Runway is an AI-powered career action planner designed for students. Instead of giving students another long list of courses, Runway turns their career goal into a practical, personalized action queue.
 
-```bash
+## 🌐 Live Demo
+
+👉 **https://runway-blond-chi.vercel.app/**
+
+## 💻 GitHub Repository
+
+👉 **https://github.com/frostlily2k4/runway**
+
+---
+
+## 🎯 Problem
+
+Students often know the career role they want, but they don't know:
+
+- What skills they are missing
+- What they should learn first
+- What projects they should build
+- How to gain practical experience
+- How to reach out to professionals
+
+There is plenty of information available online, but students often lack a clear **next step**.
+
+---
+
+## 💡 Our Solution
+
+**Runway** creates a personalized 14-day career action plan using Google Gemini.
+
+Students enter:
+
+- 🎓 Year of study
+- 💻 Degree / Branch
+- 🛠️ Current skills
+- 🎯 Target career role
+- ⏰ Available hours per week
+
+Runway then generates:
+
+### 🔍 Skill Gap Analysis
+Identifies the skills the student should focus on for their target role.
+
+### 📅 14-Day Action Plan
+Provides practical daily tasks that can be completed in around 30–45 minutes.
+
+### 🚀 Portfolio Project Ideas
+Suggests projects that help students build practical evidence of their skills.
+
+### 💬 Outreach Message
+Generates a ready-to-send professional message for networking and career opportunities.
+
+---
+
+## ⚙️ How It Works
+
+```text
+Student Profile
+      ↓
+Runway Web App
+      ↓
+Google Gemini AI
+      ↓
+Skill Gap Analysis
+      ↓
+14-Day Action Plan
+      ↓
+Portfolio Projects + Outreach
+      ↓
+Student Takes Action 🚀
+🛠️ Tech Stack
+Frontend: Next.js
+Styling: Tailwind CSS
+AI: Google Gemini API
+Backend: Next.js API Routes
+Deployment: Vercel
+Version Control: GitHub
+✨ Key Features
+🎯 Personalized career planning
+🤖 AI-powered skill-gap analysis
+📅 14-day action plan
+💼 Portfolio project recommendations
+💬 Professional outreach message generation
+⚡ Fast and simple student-focused interface
+📱 Responsive web design
+👥 Team
+
+Team007
+
+Project
+
+Runway — 14-Day AI Career Action Planner
+
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/frostlily2k4/runway.git
+2. Navigate to the project
+cd runway
+3. Install dependencies
+npm install
+4. Add your Gemini API key
+
+Create a .env.local file in the project root:
+
+GEMINI_API_KEY=your_api_key_here
+
+Do not commit your API key to GitHub.
+
+5. Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+🌐 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Runway is deployed using Vercel.
 
-## Learn More
+Live Application
 
-To learn more about Next.js, take a look at the following resources:
+👉 https://runway-blond-chi.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Source Code
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👉 https://github.com/frostlily2k4/runway
 
-## Deploy on Vercel
+🔮 Future Improvements
+📄 AI resume analysis
+🐙 GitHub portfolio analysis
+📊 Student progress tracking
+💼 Job matching
+🎤 Interview preparation
+📈 Personalized career roadmap
+🔔 Daily progress reminders
+🏆 Hackathon Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Built as a hackathon project under the theme:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tech for a Better Tomorrow — Education & Careers
+
+Runway doesn't just tell students what to learn.
+It tells them what to do next. 🚀
